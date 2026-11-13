@@ -190,7 +190,7 @@ class CatalogBookClientTest {
         }
 
         @Test
-        fun `when Catalog arrives before attempt timeout, then returns the book without retrying`() {
+        fun `when Catalog responds before attempt timeout, then returns the book without retrying`() {
             // Given
             val expectedRequestCount = 1
 
